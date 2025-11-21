@@ -69,9 +69,10 @@
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
-                  <p>
-                  <strong>[2025.09]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Two papers (one Datasets & Benchmarks Track) to appear in NeurIPS 2025.<br>
-                  <strong>[2025.08]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in TOG (SIGGRAPH Asia 2025).<br>
+                  <p id="news-list">
+                  <strong>[2025.11]</strong>&nbsp;&nbsp;&nbsp;&nbsp;End of my internship at Adobe — heartfelt thanks to all the teams.<br>
+                  <strong>[2025.09]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Two papers (One Datasets & Benchmarks Track) to appear in NeurIPS 2025.<br>
+                  <strong>[2025.08]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in TOG, SIGGRAPH Asia 2025 (Journal Track).<br>
                   <strong>[2025.07]</strong>&nbsp;&nbsp;&nbsp;&nbsp;We win the Championship 🏆 in the VQualA 2025 DIQA Challenge (ICCV 2025 Workshop).<br>
                   <strong>[2025.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in TPAMI.<br>
                   <strong>[2025.02]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Two papers to appear in CVPR 2025 (One Highlight). See you in Nashville.<br>
@@ -88,6 +89,7 @@
                   <strong>[2021.12]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in NN.<br>
                   <strong>[2020.07]</strong>&nbsp;&nbsp;&nbsp;&nbsp;I graduate and receive my Bachelor's degree from Shanghai Jiao Tong University.
                   </p>
+                  <p class="news-toggle-wrap"><a href="#" id="news-toggle" class="news-toggle">[Show More]</a></p>
                 </td>
               </tr>
             </tbody>
@@ -102,6 +104,13 @@
                   <p>
                     *: Equal Contribution, †: Corresponding Author
                   </p>
+                  <div id="research-filters" class="filters">
+                    <a href="#" class="filter-link" data-filter="mllm">MLLM Applications in Low-level Vision</a> /
+                    <a href="#" class="filter-link" data-filter="restoration">Generative Image Processing</a> /
+                    <a href="#" class="filter-link" data-filter="anomaly">Anomaly Detection</a> /
+                    <a href="#" class="filter-link" data-filter="misc">Misc</a> /
+                    <a href="#" class="filter-link active" data-filter="all">All</a>
+                  </div>
                 </td>
               </tr>
             </tbody>
@@ -109,7 +118,7 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-            <tr>
+            <tr class="pub-row" data-categories="mllm">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/radarqa.jpg' style="width:100%">
               </td>
@@ -134,7 +143,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="anomaly">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/reinad.jpg' style="width:100%">
               </td>
@@ -159,7 +168,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="restoration">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/hypir.jpg' style="width:100%">
               </td>
@@ -188,7 +197,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="mllm">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/deqa-doc.jpg' style="width:100%">
               </td>
@@ -211,7 +220,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="mllm">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/deqa-score.png' style="width:100%">
               </td>
@@ -238,7 +247,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="restoration">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/ultrafusion.jpg' style="width:100%">
               </td>
@@ -271,7 +280,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="misc">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/cem.jpg' style="width:100%">
               </td>
@@ -295,7 +304,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="restoration">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/agenticir.png' style="width:100%">
               </td>
@@ -319,7 +328,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="misc">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/sail.png' style="width:100%">
               </td>
@@ -341,7 +350,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="mllm">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/depictqa-wild.png' style="width:100%">
               </td>
@@ -369,7 +378,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="restoration">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/phocolens.png' style="width:100%">
               </td>
@@ -393,7 +402,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="mllm">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/depictqa.png' style="width:100%">
               </td>
@@ -423,7 +432,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="misc">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/maskma.jpg' style="width:100%">
               </td>
@@ -446,7 +455,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="misc">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/safecount.jpg' style="width:100%">
               </td>
@@ -473,7 +482,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="anomaly">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/uniad.jpg' style="width:100%">
               </td>
@@ -498,7 +507,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="anomaly">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/adtr.jpg' style="width:100%">
               </td>
@@ -520,7 +529,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="misc">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/starid.png' style="width:100%">
               </td>
@@ -545,7 +554,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="pub-row" data-categories="anomaly">
               <td style="padding:10px;width:40%;vertical-align:middle">
                 <img src='images/utrad.jpg' style="width:100%">
               </td>
@@ -577,7 +586,7 @@
     <tbody>
       <tr>
         <td>
-          <heading>Education</heading>
+          <heading>Experience</heading>
         </td>
       </tr>
     </tbody>
@@ -586,7 +595,21 @@
     <tbody>
 
       <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cuhk.png" , width="80">
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="institutes/adobe.png" , width="80">
+        </td>
+        <td width="75%" valign="center">
+          Research Scientist Intern @ Adobe
+          <br>
+          Jul. 2025 - Nov. 2025
+          <br>
+          Mentor: Dr. <a href="https://kewang0622.github.io/">Ke Wang</a>,
+          Dr. <a href="https://ztzhang.info/">Zhoutong Zhang</a>, and
+          Dr. <a href="https://sites.google.com/site/hezhangsprinter/">He Zhang</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="institutes/cuhk.png" , width="80">
         </td>
         <td width="75%" valign="center">
           Ph.D. Student at Multimedia Laboratory (MMLab) @ The Chinese University of Hong Kong
@@ -599,7 +622,7 @@
       </tr>
 
       <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/sjtu.png" , width="80">
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="institutes/sjtu.png" , width="80">
         </td>
         <td width="75%" valign="center">
           M.Eng. with Honor @ Shanghai Jiao Tong University
@@ -614,7 +637,7 @@
       </tr>
 
       <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/sjtu.png" , width="80"></td>
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="institutes/sjtu.png" , width="80"></td>
         <td width="75%" valign="center">
           B.Eng. with Honor @ Shanghai Jiao Tong University
           <br>
@@ -672,13 +695,10 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>Awards</heading>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2023.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Excellent Master Dissertation, 
-              Shanghai Jiao Tong University<br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2023.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Outstanding Graduate (Postgraduate), 
-              Shanghai Jiao Tong University<br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2022.09]</strong>&nbsp;&nbsp;&nbsp;&nbsp;National Scholarship <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2020.06]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Outstanding Graduate (Undergraduate), 
-              Shanghai Jiao Tong University
+              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2023.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;SJTU Excellent Master Dissertation<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2023.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;SJTU Outstanding Graduate (Postgraduate)<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2022.09]</strong>&nbsp;&nbsp;&nbsp;&nbsp;National Scholarship<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<strong>[2020.06]</strong>&nbsp;&nbsp;&nbsp;&nbsp;SJTU Outstanding Graduate (Undergraduate)<br>
             </p>
           </td>
         </tr>
@@ -707,6 +727,63 @@
       </td>
       </tr>
   </table>
+  <script>
+    (function () {
+      var links = document.querySelectorAll('#research-filters .filter-link');
+      var rows = document.querySelectorAll('.pub-row');
+      function setActive(linkEl) {
+        links.forEach(function (b) { b.classList.remove('active'); });
+        linkEl.classList.add('active');
+      }
+      function applyFilter(filter) {
+        rows.forEach(function (tr) {
+          var cats = (tr.dataset.categories || '').split(/\s+/);
+          var show = filter === 'all' || cats.indexOf(filter) !== -1;
+          tr.style.display = show ? '' : 'none';
+        });
+      }
+      links.forEach(function (lnk) {
+        lnk.addEventListener('click', function (e) {
+          e.preventDefault();
+          var filter = lnk.getAttribute('data-filter');
+          setActive(lnk);
+          applyFilter(filter);
+        });
+      });
+      // Apply initial filter based on the currently active link (fallback to 'all')
+      var activeLink = document.querySelector('#research-filters .filter-link.active');
+      var initialFilter = activeLink ? activeLink.getAttribute('data-filter') : 'all';
+      applyFilter(initialFilter);
+    })();
+    (function () {
+      var news = document.getElementById('news-list');
+      var toggle = document.getElementById('news-toggle');
+      if (!news || !toggle) return;
+      var raw = news.innerHTML.trim();
+      var parts = raw.split(/<br\s*\/?>\s*/i).filter(function (s) { return s.length > 0; });
+      var isCollapsed = true;
+      var collapsedHtml = raw;
+      if (parts.length > 10) {
+        collapsedHtml = parts.slice(0, 10).join('<br>') + '<br>';
+        news.innerHTML = collapsedHtml;
+        toggle.textContent = '[Show More]';
+        toggle.style.display = '';
+      } else {
+        toggle.style.display = 'none';
+      }
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (isCollapsed) {
+          news.innerHTML = raw;
+          toggle.textContent = '[Show Less]';
+        } else {
+          news.innerHTML = collapsedHtml;
+          toggle.textContent = '[Show More]';
+        }
+        isCollapsed = !isCollapsed;
+      });
+    })();
+  </script>
 </body>
 
 </html>

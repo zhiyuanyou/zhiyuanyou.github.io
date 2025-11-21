@@ -141,3 +141,23 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Research filters */
+.filters {
+  margin: 8px 0 4px;
+}
+.filters a {
+  font-size: 14px;
+}
+.filters a.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* News toggle */
+.news-toggle-wrap {
+  margin: 0;
+}
+.news-toggle {
+  font-size: 14px;
+}
