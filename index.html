@@ -28,7 +28,7 @@
                   <p style="text-align:center">
                     <name>Zhiyuan You (尤志远)</name>
                   </p>
-                  <p>I am a third-year <s>second-year</s> <s>first-year</s> Ph.D. student at Multimedia Laboratory 
+                  <p>I am a Ph.D. candidate at Multimedia Laboratory 
                     (<a href="https://mmlab.ie.cuhk.edu.hk/">MMLab</a>), The Chinese University of Hong Kong
                     (<a href="https://cuhk.edu.hk/english/index.html">CUHK</a>).
                     I am supervised by Prof. <a href="https://tianfan.info/">Tianfan Xue</a>
@@ -70,6 +70,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <p id="news-list">
+                  <strong>[2026.03]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in PR.<br>
                   <strong>[2026.02]</strong>&nbsp;&nbsp;&nbsp;&nbsp;Three papers (One Findings Workshop) to appear in CVPR 2026.<br>
                   <strong>[2025.11]</strong>&nbsp;&nbsp;&nbsp;&nbsp;One paper to appear in TIP.<br>
                   <strong>[2025.11]</strong>&nbsp;&nbsp;&nbsp;&nbsp;End of my internship at Adobe — heartfelt thanks to all the teams.<br>
@@ -107,8 +108,8 @@
                     *: Equal Contribution, †: Corresponding Author
                   </p>
                   <div id="research-filters" class="filters">
-                    <a href="#" class="filter-link" data-filter="mllm">MLLM Applications in Low-level Vision</a> /
                     <a href="#" class="filter-link" data-filter="generative">Generative Image Processing</a> /
+                    <a href="#" class="filter-link" data-filter="mllm">MLLM Applications</a> /
                     <a href="#" class="filter-link" data-filter="anomaly">Anomaly Detection</a> /
                     <a href="#" class="filter-link" data-filter="misc">Misc</a> /
                     <a href="#" class="filter-link active" data-filter="all">All</a>
@@ -125,7 +126,7 @@
                 <img src='images/davae.jpg' style="width:100%">
               </td>
               <td style="padding:10px;width:60%;vertical-align:middle">
-                <a href="data/davae.pdf">
+                <a href="https://arxiv.org/abs/2603.22125">
                   <papertitle>DA-VAE: Plug-in Latent Compression for Diffusion via Detail Alignment</papertitle>
                 </a>
                 <br>
@@ -133,7 +134,9 @@
                 <br>
                 IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026
                 <br>
-                <a href="data/davae.pdf">paper</a>
+                <a href="https://arxiv.org/abs/2603.22125">paper</a>
+                /
+                <a href="https://caixin98.github.io/davae/">project page</a>
                 <p></p>
                 <p>We introduce Detail-Aligned VAE (<em>DA-VAE</em>), a method that increases the compression ratio of a
                    pretrained VAE while requiring only lightweight adaptation for the pretrained diffusion backbone.
@@ -150,7 +153,7 @@
                   <papertitle>PhotoFramer: Multi-modal Image Composition Instruction</papertitle>
                 </a>
                 <br>
-                <strong>Zhiyuan You</strong>, Ke Wang, He Zhang, Xin Cai, Jinjin Gu, Tianfan Xue, Chao Dong, Zhoutong Zhang
+                <strong>Zhiyuan You</strong>, Ke Wang, He Zhang, Xin Cai, Jinjin Gu, Tianfan Xue†, Chao Dong†, Zhoutong Zhang
                 <br>
                 IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026
                 <br>
@@ -161,6 +164,27 @@
                 <p>We introduce <em>PhotoFramer</em>, a multi-modal composition instruction framework, to provide composition guidance. 
                   Given a poorly composed image, PhotoFramer first describes how to improve the composition in natural language and then 
                   generates a well-composed example image.
+                </p>
+              </td>
+            </tr>
+
+            <tr class="pub-row" data-categories="misc">
+              <td style="padding:10px;width:40%;vertical-align:middle">
+                <img src='images/derain.jpg' style="width:100%">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2502.12600">
+                  <papertitle>Revisiting the Generalization Problem of Low-level Vision Models Through the Lens of Image Deraining</papertitle>
+                </a>
+                <br>
+                Jinfan Hu*, <strong>Zhiyuan You</strong>*, Jinjin Gu, Kaiwen Zhu, Tianfan Xue, Chao Dong†
+                <br>
+                Pattern Recognition (<strong>PR</strong>), 2026
+                <br>
+                <a href="https://arxiv.org/abs/2502.12600">paper</a>
+                <p></p>
+                <p>We investigate the underlying mechanism of the generalization failure to unseen degradations in low-level vision, and 
+                  show that the key to better generalization lies in guiding the network to learn the image content rather than the degradation.
                 </p>
               </td>
             </tr>
